@@ -9,7 +9,7 @@ import psycopg2
 logger = logging.getLogger("coindb")
 logger.setLevel(logging.DEBUG)
 
-fh = logging.FileHandler("coindb.log")
+fh = logging.FileHandler("ticker.log")
 logger.setLevel(logging.DEBUG)
 
 ch = logging.StreamHandler()
