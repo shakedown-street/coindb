@@ -1,0 +1,213 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coinmarketcap.com
+DEBUG:urllib3.connectionpool:https://api.coinmarketcap.com:443 "GET /v1/ticker/bitcoin/ HTTP/1.1" 200 None
+INFO:root:Connected to db
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coinmarketcap.com
+DEBUG:urllib3.connectionpool:https://api.coinmarketcap.com:443 "GET /v1/ticker/bitcoin/ HTTP/1.1" 200 None
+INFO:coindb:Connected to db
+
+2017-12-22 01:02:52,450 - coindb - INFO - Connected to db
+
+2017-12-22 01:03:07,603 - coindb - INFO - Connected to db
+
+
+
+2017-12-22 01:03:32,402 - coindb - INFO - Connected to db
+
+2017-12-22 01:03:44,367 - coindb - INFO - Connected to db
+
+
+2017-12-22 01:04:09,944 - coindb - INFO - Connected to db
+
+
+2017-12-22 01:27:19,235 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13151.3', 'price_btc': '1.0', '24h_volume_usd': '16952000000.0', 'market_cap_usd': '220367785755', 'available_supply': '16756350.0', 'total_supply': '16756350.0', 'max_supply': '21000000.0', 'percent_change_1h': '-0.63', 'percent_change_24h': '-23.37', 'percent_change_7d': '-25.45', 'last_updated': '1513931056'}
+
+2017-12-22 01:27:19,266 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:12:34,656 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:12:34,824 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:12:53,672 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:12:53,809 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:13:11,149 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:13:11,311 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:13:34,910 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:13:35,075 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:13:58,841 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:13:58,992 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:14:03,583 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:14:03,759 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:14:09,296 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:14:09,461 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:14:41,090 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:14:41,253 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:15:00,103 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13528.8', 'price_btc': '1.0', '24h_volume_usd': '17819500000.0', 'market_cap_usd': '226694146666', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '2.55', 'percent_change_24h': '-20.59', 'percent_change_7d': '-23.37', 'last_updated': '1513933754'}
+
+2017-12-22 02:15:48,824 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13612.6', 'price_btc': '1.0', '24h_volume_usd': '17898700000.0', 'market_cap_usd': '228098333991', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '3.27', 'percent_change_24h': '-20.0', 'percent_change_7d': '-22.92', 'last_updated': '1513934055'}
+
+2017-12-22 02:15:48,993 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:15:59,509 - coindb - INFO - {'id': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'rank': '1', 'price_usd': '13612.6', 'price_btc': '1.0', '24h_volume_usd': '17898700000.0', 'market_cap_usd': '228098333991', 'available_supply': '16756412.0', 'total_supply': '16756412.0', 'max_supply': '21000000.0', 'percent_change_1h': '3.27', 'percent_change_24h': '-20.0', 'percent_change_7d': '-22.92', 'last_updated': '1513934055'}
+
+2017-12-22 02:15:59,681 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:16:07,593 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:16:23,253 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:16:31,637 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:16:47,757 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:18:16,849 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:18:43,947 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:19:56,629 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:20:36,871 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:20:36,871 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:23:41,381 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:23:41,381 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:24:21,775 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:24:21,776 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:26:46,281 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:26:46,282 - coindb - ERROR - Failed to connect to db
+
+
+2017-12-22 02:26:55,987 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:26:55,987 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:27:20,085 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:27:20,085 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:28:09,977 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:28:09,978 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:28:38,928 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:28:38,929 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:32:28,987 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:32:28,987 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:32:46,254 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:32:46,255 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:34:02,841 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:34:02,842 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:36:00,570 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:36:00,579 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:36:55,622 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:36:55,628 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:38:17,749 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:38:17,753 - coindb - ERROR - Failed to insert
+
+2017-12-22 02:38:39,653 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:40:47,070 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:43:10,686 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:43:10,707 - coindb - INFO - Stored data in database
+
+2017-12-22 02:44:22,833 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:45:35,965 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:46:00,494 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:46:05,879 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:47:04,417 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:48:32,906 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:49:39,894 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:49:39,898 - coindb - INFO - Stored data in database
+
+2017-12-22 02:50:06,243 - coindb - INFO - Connected to db
+
+
+2017-12-22 02:50:06,246 - coindb - INFO - Stored data in database
+
