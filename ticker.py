@@ -10,10 +10,10 @@ logger = logging.getLogger("coindb")
 logger.setLevel(logging.DEBUG)
 
 fh = logging.FileHandler("ticker.log")
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.ERROR)
 
 ch = logging.StreamHandler()
-ch.setLevel(logging.INFO)
+ch.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
@@ -42,4 +42,7 @@ data_extracted = (
     tick_data['percent_change_1h'], tick_data['percent_change_24h'], tick_data['percent_change_7d'],
     tick_data['last_updated'],)
 cursor.execute(QUERY, data_extracted)
+conn.commit()
+cursor.close()
+conn.close()
 logger.info("Stored data in database")
