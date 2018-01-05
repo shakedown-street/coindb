@@ -13,4 +13,6 @@ high DECIMAL(20, 2),\
 low DECIMAL(20, 2),\
 volume DECIMAL(20, 2),\
 market_cap DECIMAL(20, 2)\
-);" | sudo su postgres -c psql coin_db
+);
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO coin_db;
+" | sudo su postgres -c psql coin_db
