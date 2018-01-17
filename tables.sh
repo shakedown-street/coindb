@@ -3,8 +3,6 @@
 sudo apt-get update
 sudo apt-get install python-pip python-dev libpq-dev postgresql postgresql-contrib
 
-# TODO: table for ticker.py
-
 echo "CREATE TABLE btc_tick(\
 date_str VARCHAR(50) NOT NULL,\
 open DECIMAL(20, 2),\
