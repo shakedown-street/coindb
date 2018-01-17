@@ -50,14 +50,15 @@ def convert_to_decimal(val):
     except decimal.InvalidOperation:
         return None
 
+
 conn = psycopg2.connect("dbname='coin_db' user='coin_db' host='localhost' password='coin_db'")
 logger.info("Connected to db")
 cursor = conn.cursor()
+DELETE_QUERY = """
+DELETE FROM btc_tick;
+"""
+cursor.execute(DELETE_QUERY, {})
 for row in extracted_data:
-    DELETE_QUERY = """
-    DELETE FROM btc_tick
-    WHERE *;
-    """
     QUERY = """
     INSERT INTO btc_tick(
         date_str, open, high, low, close, volume, market_cap)
@@ -71,7 +72,6 @@ for row in extracted_data:
     volume = convert_to_decimal(row[5].replace(',', ''))
     market_cap = convert_to_decimal(row[6].replace(',', ''))
     updated_row = (date_str, open, high, low, close, volume, market_cap,)
-    cursor.execute(DELETE QUERY, {})
     cursor.execute(QUERY, updated_row)
     logger.info("Data stored in database")
 
